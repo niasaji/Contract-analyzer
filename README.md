@@ -31,10 +31,15 @@ Built with **LegalBERT** for multi-label clause classification and **Gemma 2** f
 ## Project Architecture
 
 app.py
+
 │
+
 ├── LegalBERTMultiLabel          # Multi-label classification model
+
 ├── LegalDocumentAnalyzer         # Handles text extraction, clause detection, risk scoring
+
 ├── GemmaLegalSynthesizer         # Generates summaries and Q&A responses
+
 └── Streamlit UI                  # User interface for upload, display, and chat
 
 #### Setup & Installation
