@@ -42,7 +42,7 @@ class LegalBERTMultiLabel(nn.Module):
         return self.classifier(output)
 
 class LegalDocumentAnalyzer:
-    def __init__(self, model_path="/content/drive/MyDrive/legalnlp/trained_legalbert"):
+    def __init__(self, model_path="legal/trained_legalbert"):
         self.model_path = model_path
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
