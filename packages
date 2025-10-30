@@ -1,0 +1,1 @@
+!pip install transformers torch scikit-learn tqdm PyPDF2 python-docx -U accelerate bitsandbytes torchvision streamlit pyngrok
