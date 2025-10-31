@@ -27,6 +27,7 @@ Built with **LegalBERT** for multi-label clause classification and **Gemma 2** f
 | Quantization | BitsAndBytes (for 4-bit model loading) |
 
 ---
+Dataset: https://zenodo.org/records/4595826 
 
 ## Project Architecture
 
